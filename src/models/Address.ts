@@ -14,3 +14,6 @@ const AddressSchema = new Schema({
 const Address = mongoose.model<AddressType>("Address", AddressSchema)
 
 export default Address
+
+
+
